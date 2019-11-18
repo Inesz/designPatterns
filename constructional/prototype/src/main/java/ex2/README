@@ -1,0 +1,2 @@
+https://refactoring.guru/design-patterns/prototype/java/example
+implementation with "cache" (Map<String, Shape>)
