@@ -3,34 +3,27 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>designPatterns</artifactId>
+        <artifactId>constructional</artifactId>
         <groupId>com.patterns.design</groupId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.patterns.design</groupId>
-    <artifactId>constructional</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>builder</module>
-        <module>abstractFabric</module>
-        <module>singleton</module>
-        <module>prototype</module>
-    </modules>
 
+    <groupId>com.patterns.design.constructional</groupId>
+    <artifactId>prototype</artifactId>
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
+                    <source>7</source>
+                    <target>7</target>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+
+
 </project>
