@@ -8,3 +8,8 @@ public class MainTest {
     }
 
 }
+
+/*
+output:
+id = 5, summary = Test, description = Hello, done = false, dueDate = null
+ */
