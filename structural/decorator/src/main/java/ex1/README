@@ -6,3 +6,9 @@ The crux of the Decorator pattern is to allow you to wrap an existing Component 
 (if only one decorator) implementation hint is about omitting the abstract decorator class
  which's only purpose is to forward the functionality of the ClassHierarchy so that in the
  concrete decorators is only the code that is important to add its new functionality.
+
+(Sometimes) it is important to keep order of decorate() method.
+      public String decorate() {
+          //return decorateWithGarland() + super.decorate(); // with Bubble Lights with GarlandChristmas tree
+          return super.decorate() + decorateWithGarland(); // Christmas tree with Garland with Bubble Lights
+      }
