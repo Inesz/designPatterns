@@ -1,1 +1,8 @@
 https://www.baeldung.com/java-decorator-pattern
+
+https://stackoverflow.com/questions/41964675/decorator-pattern-why-do-we-need-an-abstract-decorator/41976309
+The purpose of the abstract class in the Decorator pattern is to eliminate code duplication.
+The crux of the Decorator pattern is to allow you to wrap an existing Component with new responsibilities.
+(if only one decorator) implementation hint is about omitting the abstract decorator class
+ which's only purpose is to forward the functionality of the ClassHierarchy so that in the
+ concrete decorators is only the code that is important to add its new functionality.
