@@ -28,5 +28,6 @@
     <modules>
         <module>decorator</module>
         <module>adapter</module>
+        <module>facade</module>
     </modules>
 </project>
