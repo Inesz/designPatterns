@@ -27,5 +27,6 @@
     </build>
     <modules>
         <module>decorator</module>
+        <module>adapter</module>
     </modules>
 </project>
