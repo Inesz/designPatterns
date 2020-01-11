@@ -32,5 +32,6 @@
         <module>facade</module>
         <module>composite</module>
         <module>bridge</module>
+        <module>proxy</module>
     </modules>
 </project>
