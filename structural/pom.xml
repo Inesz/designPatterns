@@ -31,5 +31,6 @@
         <module>adapter</module>
         <module>facade</module>
         <module>composite</module>
+        <module>bridge</module>
     </modules>
 </project>
