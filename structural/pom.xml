@@ -33,5 +33,6 @@
         <module>composite</module>
         <module>bridge</module>
         <module>proxy</module>
+        <module>flyweight</module>
     </modules>
 </project>
