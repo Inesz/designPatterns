@@ -33,7 +33,7 @@ class WorkerTest {
      * Avoids the problems with CR+LF line separator.
      */
     @Test
-    public void shouldUseSpecifyMethodForEachWorker() {
+    public void shouldUseMethodForCook() {
         String expectedResult = "Put on your apron." + System.lineSeparator() +
                 "Go for a cigarette." + System.lineSeparator() +
                 "stopBreak" + System.lineSeparator() +
@@ -50,7 +50,7 @@ class WorkerTest {
     }
 
     @Test
-    public void shouldUseSpecifyMethodForEach() {
+    public void shouldUseMethodForProgrammer() {
         String expectedResult = "Turn on the computer." + System.lineSeparator() +
                 "Make coffee." + System.lineSeparator() +
                 "stopBreak" + System.lineSeparator() +
