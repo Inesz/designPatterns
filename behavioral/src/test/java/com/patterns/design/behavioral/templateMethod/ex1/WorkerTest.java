@@ -1,4 +1,4 @@
-package com.patterns.design.behavioral.com.patterns.design.behavioral.templateMethod.ex1;
+package com.patterns.design.behavioral.templateMethod.ex1;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

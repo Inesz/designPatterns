@@ -1,4 +1,4 @@
-package com.patterns.design.behavioral.com.patterns.design.behavioral.templateMethod.ex1;
+package com.patterns.design.behavioral.templateMethod.ex1;
 
 public class Cook extends Worker {
     protected void startBreak() {
