@@ -13,7 +13,7 @@
     <artifactId>proxy</artifactId>
 
     <properties>
-        <log4j.version>2.12.1</log4j.version>
+        <log4j.version>2.15.0</log4j.version>
     </properties>
 
     <dependencies>
